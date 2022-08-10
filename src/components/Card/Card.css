@@ -1,0 +1,57 @@
+.--card-container{
+    margin:0 36px;
+}
+.card{
+    background: url("https://res.cloudinary.com/relentlessrawle/image/upload/v1660095229/image_12_d8kwcu.png") no-repeat  center;
+    background-size: contain;
+    width: 176px;
+    height: 235px;
+    border-radius: 9px;
+}
+
+.card-body{
+    padding:unset;
+}
+
+.--card-body-container{
+    margin:1px 8px;
+}
+
+.--card-body-status{
+    height:20px;
+    padding:2px 2px;
+    font-size: 10px;
+    font-weight:400;
+    background-color:#FFF;
+}
+
+.--info-container{
+    width:176px;
+    font-weight:300;
+    font-size:12px;
+}
+
+.bi-star-fill, .--info-rating-num, .--info-rating-quantity, .--info-rating-country, .--info-person{
+    margin-right:4px;
+    margin-bottom:6px;
+}
+
+.bi-star-fill{
+    color:#FE395C;
+}
+
+.--info-rating-quantity, .--info-rating-country{
+    color:#918E9B;
+}
+
+.--info-title-container, .--info-cost-container{
+    margin-bottom:4px;
+}
+.--info-title{
+    color:#222222;
+}
+
+.--info-cost{
+    font-weight: 700;
+}
+

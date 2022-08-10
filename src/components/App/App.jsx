@@ -2,6 +2,7 @@ import react from 'react'
 import './App.css'
 import Navbar from '../Navbar/Navbar'
 import Hero from '../Hero/Hero'
+import Card from '../Card/Card'
 
 export default function App(){
   return(
@@ -9,6 +10,7 @@ export default function App(){
       <h1 className='--app-title'>AirBnB</h1>
       <Navbar />
       <Hero /> 
+      <Card />
     </div>   
   )
 }

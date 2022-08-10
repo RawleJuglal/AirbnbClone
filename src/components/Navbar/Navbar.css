@@ -6,7 +6,7 @@ nav{
     display:flex;
     align-items: center;
     height:70px;
-    margin:0 30px;
+    margin:0 30px 16px 30px;
 }
 
 .--navbar-logo{
