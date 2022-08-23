@@ -1,9 +1,8 @@
 import React from 'react'
 import './Card.css'
 
-export default function Card(){
+export default function Card(p){
     return(
-        <div className='--deck-container'>
             <div className='--card-container'>
                 <div className="card">
                     <div className="card-body">
@@ -31,8 +30,7 @@ export default function Card(){
                     
                 </div>
             </div>
-            
-        </div>
+
     )
 }
 

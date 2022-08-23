@@ -10,7 +10,9 @@ export default function App(){
       <h1 className='--app-title'>AirBnB</h1>
       <Navbar />
       <Hero /> 
-      <Card />
+      <div className='--deck-container'>
+          <Card />  
+      </div>
     </div>   
   )
 }
