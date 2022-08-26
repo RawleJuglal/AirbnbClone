@@ -2,8 +2,6 @@
     margin:0 36px;
 }
 .card{
-    background: url("https://res.cloudinary.com/relentlessrawle/image/upload/v1660095229/image_12_d8kwcu.png") no-repeat  center;
-    background-size: contain;
     width: 176px;
     height: 235px;
     border-radius: 9px;

@@ -1,3 +1,7 @@
 .--app-title{
     display: none;
 }
+
+.--deck-container{
+    display:flex;
+}
