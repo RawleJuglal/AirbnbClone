@@ -11,6 +11,7 @@ export default function App(){
   // }))
   let cards = Data.map((i)=>{
     return <Card 
+        key={i.id}
         coverImg={`../../../images/${i.coverImg}`}
         location={i.location} 
         title={i.title} 

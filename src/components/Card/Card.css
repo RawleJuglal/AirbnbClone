@@ -47,6 +47,8 @@
 }
 .--info-title{
     color:#222222;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .--info-cost{
