@@ -12,13 +12,7 @@ export default function App(){
   let cards = Data.map((i)=>{
     return <Card 
         key={i.id}
-        coverImg={`../../../images/${i.coverImg}`}
-        location={i.location} 
-        title={i.title} 
-        rating={i.stats.rating}
-        reviewCount={i.stats.reviewCount}
-        price={i.price}
-        openSpots={i.openSpots}
+        {...i}
       /> 
   });
   return(
