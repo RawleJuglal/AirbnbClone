@@ -11,7 +11,7 @@ export default function Card(props){
 
     return(
             <div className='--card-container'>
-                <div className="card" style={{background: `url('AirBnbClone/images/${props.coverImg}') no-repeat center`, backgroundSize: 'contain'}}>
+                <div className="card" style={{background: `url('/AirBnbClone/images/${props.coverImg}') no-repeat center`, backgroundSize: 'contain'}}>
                     <div className="card-body">
                         <div className="--card-body-container">
                             {badgeText && <span className='--card-body-status'>{badgeText}</span>}
