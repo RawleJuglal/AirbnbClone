@@ -1,9 +1,0 @@
-.--app-title{
-    display: none;
-}
-
-.--deck-container{
-    display:flex;
-    flex:0 0 auto;
-    overflow-x: auto;
-}
